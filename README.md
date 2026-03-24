@@ -1,2 +1,2 @@
 # rpg_game
-The first python game
+My first python game in a few years
