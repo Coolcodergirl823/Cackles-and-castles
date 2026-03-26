@@ -1,4 +1,5 @@
 import random
+#832Tessa102026
 def the_first_game():
     game_won = False
     player_name = input("What is your name, traveler? ")
@@ -65,7 +66,7 @@ def the_first_game():
             monster_health = 10
             attack_dice = random.randint(1,2)
             if attack_dice == 1:
-                monster_attack = "bite"
+                monster_attack = "bite"#3
                 monster_attack_dmg = 5
             elif attack_dice == 2:
                 monster_attack = "hit" 
@@ -82,7 +83,7 @@ def the_first_game():
             species = "troll"
         elif player_species.lower() == 'b':
             print("You have chosen to be an orc, you are fierce and powerful but not very smart.")
-            attacks = ["smash", "roar", "charge"]
+            attacks = ["smash", "roar", "charge"]#2
             dmg1, dmg2, dmg3 = 5, 10, 15
             species = "orc"
         elif player_species.lower() == 'c':
@@ -112,7 +113,7 @@ def the_first_game():
 
         print(f"Great! {player_name} the {player_species}, your adventure begins now.")
         
-        input("""How this game will work: when you defeat a monster you gain skill points...
+        input("""How this game will work: when you defeat a monster, you gain skill points...
               (Press Enter to continue)""")
         
         choice = input("Are you ready to start your adventure? (y/n) ")
@@ -316,7 +317,7 @@ def the_first_game():
                             print("Invalid choice!")
                         
                         if monster_health <= 0:
-                            print(f"You defeated the {monster_type}! You have beaten the game! Congratulations!")
+                            print(f"You defeated the {monster_type}! You have beaten the game! Congratulations! go to my github page and find a cheat code for the 2end game hidden away in this games code")
                             game_won = True
                             break
                         
@@ -404,5 +405,5 @@ def the_first_game():
     elif choice.lower() == 'n':
         print("Perhaps another time.")
     else:
-        print("Please enter 'y' or 'n'.")
+        print("Please enter 'y ' or 'n'.")
 the_first_game()
