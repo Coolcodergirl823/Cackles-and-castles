@@ -1,5 +1,5 @@
 import random
-cheatcode = "832Tessa102026"
+cheatcode = "YOUCHEATER"
 def the_first_game():
     
     game_won = False
